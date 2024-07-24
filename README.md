@@ -12,6 +12,7 @@ Questa libreria permette di creare siti web in WordPress molto più reattivi e v
 4. Creare una build per la produzione tramite il comando `npx webpack` (verrà creata una cartella "build")
 5. Utilizzando un file manager, dirigersi nella cartella `wp-content/themes` del sito web WordPress a cui si vuole applicare il tema
 6. Inserire la cartella del tema all'interno della cartella `wp-content/themes`
+7. Reacrsi nella dashboard di amministrazione di WordPress e attivare il tema
 
 N.B. Ogni volta che verrà eseguita una modifica, bisognerà creare una nuova build del codice aggiornato tramite `npx webpack`.
 
