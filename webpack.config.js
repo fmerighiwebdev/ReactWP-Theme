@@ -1,18 +1,18 @@
 const path = require("path");
 
 module.exports = {
-  entry: "/src/index.jsx",
+  entry: "/src/index.jsx", // File di input
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "bundle.js",
+    filename: "bundle.js", // File di output
   },
   resolve: {
-    extensions: [".js", ".jsx"], // Aggiungi questa riga per risolvere sia .js che .jsx
+    extensions: [".js", ".jsx"], // Risolve i file .js e .jsx
   },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx)$/, // Carica i file .js e .jsx
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -23,5 +23,5 @@ module.exports = {
       },
     ],
   },
-  mode: "development",
+  mode: "development", 
 };
