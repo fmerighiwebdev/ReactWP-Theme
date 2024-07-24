@@ -14,7 +14,13 @@ Questa libreria permette di creare siti web in WordPress molto più reattivi e v
 6. Inserire la cartella del tema all'interno della cartella `wp-content/themes`
 7. Reacrsi nella dashboard di amministrazione di WordPress e attivare il tema
 
-N.B. Ogni volta che verrà eseguita una modifica, bisognerà creare una nuova build del codice aggiornato tramite `npx webpack`.
+**N.B. Ogni volta che verrà eseguita una modifica, bisognerà creare una nuova build del codice aggiornato tramite `npx webpack`.**
+
+## Come modificare le informazioni del tema
+
+Per modificare le informazioni del tema, quali nome, descrizione, autore ecc... bisogna recarsi nel file `styles.css`.
+
+**!! Il file `styles.css` contenuto in questo progetto è un file fondamentale per il corretto riconoscimento del tema da parte di WordPress e per questo motivo non va eliminato per nessun motivo !!**
 
 ## License
 
