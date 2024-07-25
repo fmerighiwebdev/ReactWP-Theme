@@ -21,7 +21,11 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.css$/, // Gestisce i file CSS
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
-  mode: "development", 
+  mode: "development",
 };
